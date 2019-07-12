@@ -17,3 +17,7 @@ State is a way to store data in React. It is usually changed through user input,
 Props are passed down from the parent component, give access to data and can not be changed.
 
 5. What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipulating the DOM are all examples of side effects.
+
+You use the useEffect() hook to sync effects to state or prop changes.

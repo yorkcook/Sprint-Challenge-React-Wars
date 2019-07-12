@@ -18,7 +18,7 @@ const Characters = () => {
 
   return (
     <div>
-      <h1>Character</h1>
+      <h1>Characters</h1>
       {charactersAll.map(characters => (
         <Element characters={characters} />
       ))}
