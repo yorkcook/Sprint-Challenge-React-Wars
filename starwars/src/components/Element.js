@@ -1,10 +1,17 @@
 import React from "react";
 
+import styled from "styled-components";
+
+const Name = styled.p`
+  color: red;
+  font-size: 2rem;
+`;
+
 const Element = props => {
   console.log("in element", props);
   return (
     <div>
-      {props.characters.name} {props.characters.height}
+      <Name>{props.characters.name}</Name> {props.characters.height}
     </div>
   );
 };
